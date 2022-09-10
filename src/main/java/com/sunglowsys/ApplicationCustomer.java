@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ApplicationCustomer {
     public static void main(String[] args) {
         SpringApplication.run(ApplicationCustomer.class, args);
-        System.out.println("run");
+        System.out.println("successfully");
 
     }
 }

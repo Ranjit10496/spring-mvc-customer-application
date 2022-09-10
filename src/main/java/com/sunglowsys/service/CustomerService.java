@@ -8,8 +8,8 @@ import java.util.Optional;
 
 public interface CustomerService {
     Customer save(Customer customer);
-    Customer update(Customer customer);
-    Page<Customer> finalAll(Pageable pageable);
+   Customer update(Customer customer);
+    Page<Customer> findAll(Pageable pageable);
     Optional<Customer> findOne(Long id);
     void delete(Long id);
 }
